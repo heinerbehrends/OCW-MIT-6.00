@@ -1,0 +1,26 @@
+greedyAdvisor(dict, maxWork, algor)
+dictCopy = dict(dict)
+workLimit = maxWork
+res = dict
+
+check if any items in dictCopy < workLimit:
+	if none return dict
+get best Value in regards with algor
+	copy best value to res
+	remove best value from dictCopy
+	Subtract work value from workLimit
+Start all over with new dict and new maxWork
+
+Sub problem 1: 
+
+check if any work value of dictCopy <= maxWork
+
+Sub problem 2:
+
+get best value according to comparator
+
+Sub problem 3:
+
+Add values to res
+Delete values from copyDict
+Subtract value from workLimit
